@@ -108,6 +108,7 @@ public class UserController {
     @ApiOperation("修改用户数据")
     @RequestMapping(value = "/updateUser", method = RequestMethod.POST)
     @ResponseBody
+    @UserLoginToken
     public ReturnT<String> updateUser(@RequestBody User user){
         boolean bool=userService.updateUser(user);
         return ReturnT.success(""+bool);
