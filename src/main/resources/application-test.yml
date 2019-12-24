@@ -4,7 +4,7 @@ spring:
       connection-test-query: SELECT 1 FROM DUAL
       maximum-pool-size: 5
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/xinche_mall?zeroDateTimeBehavior=convertToNull&serverTimezone=Asia/Shanghai&useSSL=false
+    url: jdbc:mysql://localhost:3306/test?zeroDateTimeBehavior=convertToNull&serverTimezone=Asia/Shanghai&useSSL=false
     username: root
     password: root
     type: com.zaxxer.hikari.HikariDataSource
