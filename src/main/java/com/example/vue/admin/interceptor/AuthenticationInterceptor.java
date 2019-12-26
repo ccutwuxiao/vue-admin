@@ -7,7 +7,7 @@ import com.auth0.jwt.exceptions.JWTDecodeException;
 import com.auth0.jwt.exceptions.JWTVerificationException;
 import com.example.vue.admin.annotation.PassToken;
 import com.example.vue.admin.annotation.UserLoginToken;
-import com.example.vue.admin.model.User;
+import com.example.vue.admin.model.vue.User;
 import com.example.vue.admin.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

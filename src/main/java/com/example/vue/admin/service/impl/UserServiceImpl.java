@@ -2,9 +2,9 @@ package com.example.vue.admin.service.impl;
 
 import com.example.vue.admin.dao.UserDAO;
 import com.example.vue.admin.model.Pagination;
-import com.example.vue.admin.model.User;
-import com.example.vue.admin.model.UserQueryRequest;
-import com.example.vue.admin.model.UserQueryResponse;
+import com.example.vue.admin.model.vue.User;
+import com.example.vue.admin.model.vue.UserQueryRequest;
+import com.example.vue.admin.model.vue.UserQueryResponse;
 import com.example.vue.admin.service.UserService;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;

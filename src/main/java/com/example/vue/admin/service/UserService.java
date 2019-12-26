@@ -1,8 +1,8 @@
 package com.example.vue.admin.service;
 
-import com.example.vue.admin.model.User;
-import com.example.vue.admin.model.UserQueryRequest;
-import com.example.vue.admin.model.UserQueryResponse;
+import com.example.vue.admin.model.vue.User;
+import com.example.vue.admin.model.vue.UserQueryRequest;
+import com.example.vue.admin.model.vue.UserQueryResponse;
 
 import java.util.List;
 

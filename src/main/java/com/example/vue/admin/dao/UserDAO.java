@@ -1,6 +1,6 @@
 package com.example.vue.admin.dao;
 
-import com.example.vue.admin.model.User;
+import com.example.vue.admin.model.vue.User;
 import org.apache.ibatis.annotations.*;
 
 import java.util.List;

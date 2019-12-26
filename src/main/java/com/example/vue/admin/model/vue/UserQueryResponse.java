@@ -1,5 +1,6 @@
-package com.example.vue.admin.model;
+package com.example.vue.admin.model.vue;
 
+import com.example.vue.admin.model.Pagination;
 import lombok.Data;
 
 import java.util.List;
