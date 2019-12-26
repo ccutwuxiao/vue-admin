@@ -174,6 +174,9 @@ public class AntdController {
     @RequestMapping(value = "/updateUser", method = RequestMethod.POST)
     @ResponseBody
     public ReturnT<String> updateUser(@RequestBody User user){
+        user.setUsername(user.getName());
+        user.setPassword("123456");
+        user.setRole("editor");
         boolean bool=userService.updateUser(user);
         return ReturnT.success(""+bool);
     }
